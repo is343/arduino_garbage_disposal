@@ -1,9 +1,7 @@
 // WEMOS D1 MINI
 
 /*
- * Blink
- * Turns on the onboard LED on for one second, then off for one second, repeatedly.
- * This uses delay() to pause between LED toggles.
+ * Triggers the relay after a defined timeout
  */
 
 const int relayPin = D1;
