@@ -19,5 +19,6 @@ void loop() {
     // wait 30 seconds
     delay(30000);
     digitalWrite(relayPin, HIGH);  // trigger the relay with voltage HIGH
+    digitalWrite(BUILTIN_LED, HIGH);  // turn off onboard LED
   }
 }
